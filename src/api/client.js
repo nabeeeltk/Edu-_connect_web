@@ -1,5 +1,5 @@
 // Axios-like lightweight API client using fetch
-const BASE_URL = import.meta.env.VITE_API_URL || 'https://your-frontend-project.vercel.app';
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://edu-connect-backend-vert.vercel.app/api';
 
 function getToken() {
   return localStorage.getItem('educonnect_token');
